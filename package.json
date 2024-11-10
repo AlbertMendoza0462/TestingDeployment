@@ -1,0 +1,16 @@
+{
+  "name": "testingdeployment",
+  "version": "1.0.0",
+  "description": "Testing Deployment",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/app.js --env-file:.env"
+  },
+  "author": "Albert Mendoza",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
+}
